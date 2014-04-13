@@ -1,0 +1,25 @@
+{
+    "name": "rawebone/jasmini",
+    "description": "A small, Jasmine-esque testing framework",
+    "require": {
+        "rawebone/injector": "dev-master",
+        "phpspec/prophecy": "1.*",
+        "esperance/esperance": "v0.0.3"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "2.0.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nick Rawe",
+            "email": "rawebone@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "": [ "spec/" ],
+            "Rawebone\\Jasmini": [ "library/" ]
+        }
+    }
+}
