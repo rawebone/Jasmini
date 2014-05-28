@@ -1,0 +1,11 @@
+{
+    "alias": "jasmini.phar",
+    "chmod": "0755",
+    "compactors": [
+        "Herrera\\Box\\Compactor\\Php"
+    ],
+    "directories": [ "library/", "vendor/" ],
+    "main": "bin/basic-runner.php",
+    "output": "jasmini.phar",
+    "stub": true
+}
