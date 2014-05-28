@@ -7,7 +7,7 @@
         "esperance/esperance": "v0.0.3"
     },
     "require-dev": {
-        "phpspec/phpspec": "2.0.*"
+        "phpspec/phpspec": "2.1.x-dev"
     },
     "license": "MIT",
     "authors": [
@@ -17,9 +17,9 @@
         }
     ],
     "autoload": {
-        "psr-0": {
+        "psr-4": {
             "": [ "spec/" ],
-            "Rawebone\\Jasmini": [ "library/" ]
+            "Rawebone\\Jasmini\\": [ "library/" ]
         }
     }
 }
